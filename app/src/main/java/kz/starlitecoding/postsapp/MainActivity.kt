@@ -21,7 +21,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import kz.starlitecoding.postsapp.Pages.navBar.CustomBottomNavigationBar
-import kz.starlitecoding.postsapp.ui.Pages.components.PostCard
+import kz.starlitecoding.postsapp.Pages.components.PostCard
 import kz.starlitecoding.postsapp.ui.theme.PostsAppTheme
 
 class MainActivity : ComponentActivity() {

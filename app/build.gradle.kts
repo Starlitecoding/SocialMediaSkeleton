@@ -62,6 +62,7 @@ dependencies {
 
     //Navigation
     implementation ("androidx.navigation:navigation-compose:2.7.7")
+    implementation(libs.androidx.ui.text.google.fonts)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

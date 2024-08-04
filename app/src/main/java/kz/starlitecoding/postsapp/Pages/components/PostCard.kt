@@ -1,4 +1,4 @@
-package kz.starlitecoding.postsapp.ui.Pages.components
+package kz.starlitecoding.postsapp.Pages.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -18,9 +18,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import kz.starlitecoding.posts.R
-import kz.starlitecoding.posts.ui.theme.PostsTheme
-import kz.starlitecoding.posts.ui.theme.fontFamily
+import kz.starlitecoding.postsapp.R
+import kz.starlitecoding.postsapp.ui.theme.PostsAppTheme
+import kz.starlitecoding.postsapp.ui.theme.fontFamily
 
 @Composable
 fun PostCard(
@@ -62,7 +62,7 @@ fun PostCard(
 @Preview
 @Composable
 fun cardPreview() {
-    PostsTheme {
+    PostsAppTheme {
         PostCard()
     }
 }
